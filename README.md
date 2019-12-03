@@ -6,7 +6,7 @@
 
  <ul>
   <li> pandas (conda install -c anaconda pandas) </li>
-  <li> csv </li>
+  <li> csv (conda install -c anaconda csvkit) </li>
 </ul>
 
 **Current Version**

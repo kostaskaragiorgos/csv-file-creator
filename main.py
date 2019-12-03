@@ -22,6 +22,7 @@ class CSV_FILE_CREATOR():
         self.menu = Menu(self.master)
         
         self.file_menu = Menu(self.menu,tearoff = 0)
+        self.file_menu.add_command(label ="Create Csv File",accelerator = 'Alt+O',command = self.createb)
         self.file_menu.add_command(label="Exit",accelerator= 'Alt+F4',command = self.exitmenu)
         self.menu.add_cascade(label = "File",menu=self.file_menu)
         
@@ -37,6 +38,7 @@ class CSV_FILE_CREATOR():
         self.master.bind('<Alt-F4>',lambda event: self.exitmenu())
         self.master.bind('<Control-F1>',lambda event: self.helpmenu())
         self.master.bind('<Control-i>',lambda event:self.aboutmenu())
+        self.master.bind('<Alt-O>',lambda event:self.createb())
     
     #MENU FUNCTIONS
     

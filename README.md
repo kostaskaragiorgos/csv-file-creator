@@ -11,6 +11,7 @@
 
 ## FILES
 <ul>
+ <li> csv file creator.png (version image file) </li>
  <li>main.py(the main file) </li>
  <li>csv file creator keybinds(keybinds file) </li>
 </ul>
